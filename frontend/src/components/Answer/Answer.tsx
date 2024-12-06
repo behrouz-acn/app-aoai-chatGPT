@@ -325,7 +325,7 @@ export const Answer = ({ answer, onCitationClicked, onExectResultClicked }: Prop
           )}
           <Stack.Item className={styles.answerDisclaimerContainer}>
           <br />
-            <span className={styles.answerDisclaimer}>The response generated is for guidance and cannot be taken as a legal advice</span>
+            <span className={styles.answerDisclaimer}>The response generated is for guidance and cannot be taken as a legal advice.</span>
           </Stack.Item>
           {!!answer.exec_results?.length && (
             <Stack.Item onKeyDown={e => (e.key === 'Enter' || e.key === ' ' ? toggleIsRefAccordionOpen() : null)}>
